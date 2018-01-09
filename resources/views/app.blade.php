@@ -18,6 +18,6 @@
 {{--</div>--}}
 {!! $ssr !!}
 
-<script src="{{mix('js/entry-client.js')}}"></script>
+<script src="{{mix('js/app.js')}}"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@ let mix = require('laravel-mix');
  */
 
 mix.sass('resources/assets/sass/app.scss','public/css')
-  .js('resources/assets/js/entry-client.js', 'public/js')
+  .js('resources/assets/js/entry-client.js', 'public/js/app.js')
   .js('resources/assets/js/entry-server.js', 'public/js')
 ;
 
